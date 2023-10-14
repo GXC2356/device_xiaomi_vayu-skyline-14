@@ -15,6 +15,9 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 $(call inherit-product, vendor/aosp/config/common.mk)
 $(call inherit-product, vendor/aosp/config/gsm.mk)
 
+# Google Camera
+$(call inherit-product-if-exists, vendor/mgc/config.mk)
+
 PRODUCT_NAME := aosp_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
