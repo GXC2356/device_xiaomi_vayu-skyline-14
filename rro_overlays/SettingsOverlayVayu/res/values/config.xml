@@ -22,11 +22,15 @@
     <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
     <!-- Whether to show peak refresh rate in display settings -->
-    <bool name="config_show_peak_refresh_rate_switch">true</bool>
+    <bool name="config_show_peak_refresh_rate_switch">false</bool>
+     <!-- Whether to show min refresh rate in display settings -->
+    <bool name="config_show_min_refresh_rate_switch">false</bool>
+    <bool name="config_show_refresh_rate_controls">false</bool>
     
     <!-- Disable StatusBar Burnin-->
     <bool name="config_disableStatusBarBurnInProtection">true</bool>
 
-    <!-- Whether to show min refresh rate in display settings -->
-    <bool name="config_show_min_refresh_rate_switch">true</bool>
+     <!-- Whether to show Smooth Display feature in Settings Options -->
+    <bool name="config_show_smooth_display">true</bool>
+     
 </resources>
